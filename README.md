@@ -20,10 +20,10 @@ graph TD
     H --> I[Memory Update Agent]
     E --> H
     
-    J[LangSmith Monitoring] --> B
-    J --> D
-    J --> G
-    J --> H
+    J[LangSmith Monitoring] -.-> B
+    J -.-> D
+    J -.-> G
+    J -.-> H
 ```
 ## Agent Orchestration Architecture
 <!-- Workflow Diagram -->
